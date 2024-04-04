@@ -1,0 +1,745 @@
+    1  sudo gedit install
+    2  sudo gedit install.sh
+    3  sudo cp autoware_map/ /media/autolab/writable1
+    4  sudo cp -r autoware_map/ /media/autolab/writable1
+    5  sudo cp install.sh  /media/autolab/writable1
+    6  chmod +x install.sh 
+    7  ./install.sh 
+    8  source /opt/ros/humble/setup.bash
+    9  cd autoware
+   10  colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
+   11  pwd
+   12  ls
+   13  ls /l
+   14  ls /a
+   15  lsl
+   16  lsa
+   17  cd desktop
+   18  cd document
+   19  cd Documents
+   20  ls
+   21  cd Desktop
+   22  cd
+   23  mkdir Av_practices
+   24  mkdir Av_practices/
+   25  cd Av_practices/
+   26  gedit info.txt
+   27  echo "hello world!"
+   28  sudo
+   29  sudo apt install git
+   30  git init
+   31  mkdir Liis
+   32  Liis/
+   33  cd
+   34  cd av_course
+   35  cd Av_practices/Liis/av_course/
+   36  echo "# av_course" >> README.md
+   37  ls
+   38  git status On branchmaster
+   39  git add README.md
+   40  git status
+   41  git commit -m "my first commit"
+   42  git config --global user.name "liiros"
+   43  git config --global user.email "liisrossner01@gmail.com"
+   44  git commit -m "my first commit"
+   45  git branch -M main
+   46  git remote add origin git@github.com:liiros/av_course.git
+   47  git push -u origin main
+   48  ls
+   49  cd
+   50  git clone git@github.com:liiros/av_course.git
+   51  cd av_course/
+   52  git status
+   53  gedit info.txt
+   54  git status
+   55  ls'
+   56  ls
+   57  gedit info.txt
+   58  git status
+   59  gedit info.txt
+   60  git status
+   61  git add info.txt
+   62  git status
+   63  git commit -m "this is the first commit"
+   64  git push -u origin main
+   65  git log
+   66  ssh-keygen -t ed25519 -C "liisrossner01@gmail.com"
+   67  ssh-keyhen -t ed25519 -C "liisrossner01@gmail.com"
+   68  cd
+   69  cat
+   70  cat~/ .ssh/ided25519.pub
+   71  cat ~/ .ssh/ided25519.pub
+   72  cd
+   73  cd /home/.ssh
+   74  cd ~/.ssh
+   75  ls
+   76  cat ided25519.pub
+   77  ls
+   78  cd
+   79  ls
+   80  cat
+   81  cd ~/.ssh/gitnew.pub
+   82  cat ~/.ssh/gitnew.pub
+   83  /bin/python3 /home/autolab/python_course/basics1.py
+   84  ls
+   85  cd D
+   86  ls
+   87  cd .ssh
+   88  pwd
+   89  ls
+   90  ssh-keygen -t ed25519 -C "liisrossner01@gmail.com"
+   91  cat session2_git.pub
+   92  cd
+   93  mkdir python_course
+   94  ls
+   95  cd python_course/
+   96  gedit README.md
+   97  git init
+   98  ls
+   99  git status
+  100  git add .
+  101  git status
+  102  clear
+  103  git config --global user.name "liiros"
+  104  git config --global user.email "liisrossner01@gmail.com"
+  105  config user.name
+  106  git config user.name
+  107  git config user.email
+  108  git status
+  109  git commit -m "This is the first commit for the creation of the repo"
+  110  git branch -M main
+  111  git remote add origin git@github.com:liiros/av_lesson_2.git
+  112  git push -u origin main
+  113  ls
+  114  python basics1.py 
+  115  python3 basics1.py
+  116  [200~source /opt/ros/humble/setup.bash~
+  117  source /opt/ros/humble/setup.bash
+  118  printenv | grep -i ROS
+  119  sudo add-apt-repository ppa:gnome-terminator
+  120  sudo apt-get install terminator
+  121  ppa:mattrose/terminator
+  122  sudo add-apt-repository ppa:mattrose/terminator mentioned
+  123  sudo add-apt-repository ppa:mattrose/terminator
+  124  sudo apt install terminator
+  125  cd /usr/share/colcon_argcomplete/hook/
+  126  ls
+  127  cd
+  128  gedit ~/.bashrc
+  129  gedit .bash.rc
+  130  gedit .bashrc
+  131  ls
+  132  source /usr/share/colcon_argcomplete/hook
+  133  source /usr/share/colcon_argcomplete/hook colcon-argcomplete.bash
+  134  source /usr/share/colcon_argcomplete/hook
+  135  source /usr/share/colcon_argcomplete/hook clear
+  136  clear
+  137  cd ros2_ws/
+  138  cd src/
+  139  ros2 run turtlesim turtle teleop_key
+  140  ros2 run turtlesim turtle_teleop_key
+  141  cd /usr/share/colcon_argcomplete/hook/cd
+  142  pwd
+  143  mkdir -p ros2_ws/src
+  144  cd ros2_ws/
+  145  ls
+  146  colcon build
+  147  cd install
+  148  ls
+  149  clear
+  150  cd ./src
+  151  cd ./
+  152  cd/.
+  153  cd /.
+  154  ls
+  155  mkdir -p ros2_ws/src
+  156  cd ros2_ws/src
+  157  cd ./ros2_ws/src
+  158  ls
+  159  cd
+  160  ls
+  161  cd ros2_ws/
+  162  ls
+  163  cd src/
+  164  ls
+  165  ros2 pkg create my_robot_controller
+  166  clear
+  167  code .
+  168  ros2 pkg create my_robot_controller --buiöd-type ament_python --dependencies rcply
+  169  ros2 pkg create my_robot_controller --build-type ament_python --dependencies rcply
+  170  code .
+  171  cd ..
+  172  pwd
+  173  colcon build
+  174  ./my_first_node:py
+  175  ls
+  176  ./src/
+  177  cd src/
+  178  ls
+  179  cd my_robot_controller/
+  180  ls
+  181  cd my_robot_controller/
+  182  ls
+  183  ./my_first_node:py
+  184  ls
+  185  ./my_first_node:py
+  186  ./my_first_node.py
+  187  chmod +x my_first_node.py 
+  188  ./my_first_node.py
+  189  pip3 list | grep setuptools
+  190  pip3 install setuptools==58.2.0
+  191  pip3 list | grep setuptools
+  192  cd ros2_2s
+  193  cd ros2_ws
+  194  cd
+  195  cd ros2_ws
+  196  colcon build
+  197  pip3 list | grep setuptools
+  198  colcon build
+  199  ros2 run my_robot_controller test_node
+  200  ls
+  201  source install/setup.bash
+  202  ros2 run my_robot_controller test_node
+  203  colcon build
+  204  ros2 run my_robot_controller test_node
+  205  colcon build
+  206  ros2 run my_robot_controller test_node
+  207  colcon build
+  208  ros2 run my_robot_controller test_node
+  209  colcon build
+  210  ros2 run my_robot_controller test_node
+  211  source install/setup.bash
+  212  ros2 run  
+  213  ros2 run my_robot_controller test_node
+  214  colcon build
+  215  ros2 run my_robot_controller test_node
+  216  colcon build
+  217  ros2 run my_robot_controller test_node
+  218  colcon build
+  219  ros2 run my_robot_controller test_node
+  220  colcon build --symlink-install 
+  221  ros2 run turtlesim turtlesim_node 
+  222  cd
+  223  rqt_graph
+  224  cd ros2_ws/
+  225  colcon build --symlink
+  226  source install/setup.bash
+  227  ros2 run my_robot_controller draw_circle 
+  228  cd
+  229  visudo 
+  230  Visual
+  231  Visual Studio
+  232  Visual Studio Code
+  233  clear
+  234  cd
+  235  cd .ssh
+  236  ssy-keygen -t ed 25519 -C "gervirk@taltech.ee"
+  237  ssh-keygen -t ed 25519 -C "gervirk@taltech.ee"
+  238  ssh-keygen -t ed25519 -C "gervirk@taltech.ee"
+  239  ls
+  240  cat testkey.pub
+  241  ls
+  242  cd
+  243  ls
+  244  ros2_ws
+  245  cd ros2_ws/
+  246  clear
+  247  ls
+  248  cd src/
+  249  ls
+  250  ../
+  251  ls
+  252  /.
+  253  ./
+  254  clear
+  255  cd ./
+  256  cd /.
+  257  ls
+  258  cd
+  259  clear
+  260  ls
+  261  cd ros2_ws/
+  262  ls
+  263  git init
+  264  touch .gitignore
+  265  ls - a
+  266  ls -a
+  267  gedit .gitignore
+  268  clear
+  269  git status
+  270  git add .
+  271  git status
+  272  git commit -m "first package is added my_robot_controller"
+  273  git branch -M main
+  274  git remote add origin git@github.com:kamakohuke/ros2_ws.git
+  275  git push -u origin main
+  276  git config --global user.name "Gerdo"
+  277  git config --global user.email "gevirk@taltech.ee"
+  278  getdit git status
+  279  git status
+  280  ls
+  281  git status
+  282  git push -u origin main
+  283  git remove
+  284  git push -u origin main
+  285  cd
+  286  cd ros2_ws/
+  287  ls
+  288  clear
+  289  git push -u origin main
+  290  git config user.name
+  291  git config user.email
+  292  git init
+  293  git add .
+  294  git status
+  295  git commit -m "first commit"
+  296  git branch -m main
+  297  git remote add origin git@github.com:kamakohuke/ros2_ws.git
+  298  git push -u origin main
+  299  git config user.name
+  300  cd
+  301  cd .ssh
+  302  ls
+  303  ssh-keygen -t ed25519 -C "gevirk@taltech.ee"
+  304  cat newkey.pub 
+  305  sudo su -
+  306  cd
+  307  cd ros2_ws/
+  308  ls
+  309  ssh-keygen -t ed25519 -C "gevirk@taltech.ee"
+  310  git push -u origin main
+  311  getent
+  312  getent --help
+  313  cd ros2_ws/
+  314  colcon build --symlink
+  315  ros2 run my_robot_controller pose_sub
+  316  ros2 run turtlesim turtlesim_node 
+  317  colcon build --symlink-install 
+  318  source install/setup.bash
+  319  ros2 run my_robot_controller 
+  320  ros2 run my_robot_controller controller
+  321  source install/setup.bash 
+  322  ros2 run my_robot_controller pose_sub
+  323  colcon build --symlink-install 
+  324  source install/setup.bash 
+  325  ros2 run my_robot_controller pose_sub
+  326  source install/setup.bash 
+  327  ros2 run my_robot_controller draw_circle
+  328  cd ros2_ws/
+  329  git init
+  330  git add .
+  331  git commit -m "first commit"
+  332  git branch -M main
+  333  git remote add origin git@github.com:kamakohuke/ros2_ws.git
+  334  git push -u origin main
+  335  cd .shh
+  336  cd .ssh
+  337  ssh-keygen -t ed25519 -C "gevirk@taltech.ee"
+  338  ls
+  339  cat testkey2.pub 
+  340  sudo apt install ros-humble-gazebo-*
+  341  sudo apt install ros-humble-cartographer
+  342  sudo apt install ros-humble-cartographer-ros
+  343  sudo apt install ros-humble-navigation2
+  344  sudo apt install ros-humble-nav2-bringup
+  345  source ~/.bashrc
+  346  sudo apt install ros-humble-dynamixel-sdk
+  347  sudo apt install ros-humble-turtlebot3-msgs
+  348  sudo apt install ros-humble-turtlebot3
+  349  sudo apt update
+  350  sudo apt install ros-humble-turtlebot3
+  351  sudo apt install ros-humble-gazebo-*
+  352  sudo apt install ros-humble-cartographer
+  353  sudo apt install ros-humble-cartographer-ros
+  354  sudo apt install ros-humble-navigation2
+  355  sudo apt install ros-humble-nav2-bringup
+  356  source ~/.bashrc
+  357  sudo apt install ros-humble-turtlebot3-msgs
+  358  sudo apt install ros-humble-turtlebot3
+  359  source ~/.bashrc
+  360  cd
+  361  ls
+  362  cd ros2_ws/
+  363  git status
+  364  ls
+  365  cd src/
+  366  git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+  367  cd ..
+  368  ls
+  369  git submodule add https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git src/
+  370  cd src/
+  371  git submodule add https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+  372  cd turtlebot3_simulations/
+  373  git branch
+  374  ls
+  375  cd ~/turtlebot3_ws/src/
+  376  cd
+  377  cd ~/turtlebot3_ws/src/
+  378  cd ros2_ws/
+  379  colcon build --symlink-install
+  380  gedit ~/.bashsrc
+  381  gedit ~/.bashrc
+  382  ls
+  383  source ~/.bashrc
+  384  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  385  git status
+  386  ls
+  387  ls src/
+  388  cd turtlebot3_si
+  389  ls
+  390  cd src/
+  391  cd turtlebot3_simulations/
+  392  ls
+  393  ls turtlebot3_gazebo/
+  394  zz
+  395  cd ..
+  396  gedit ~/.bashrc
+  397  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  398  ros2 launch turtlebot3_gazebo empty_world.launch.py
+  399  source ~/.bashrc
+  400  ros2 launch turtlebot3_gazebo empty_world.launch.py
+  401  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  402  source ~/.bashrc
+  403  source install/setup.bash
+  404  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  405  source ~/.bashrc
+  406  gedit ~/.bashrc
+  407  source ~/.bashrc
+  408  gedit ~/.bashrc
+  409  source ~/.bashrc
+  410  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  411  source ~/.bashrc
+  412  colcon build --symlink-install
+  413  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  414  clear
+  415  ros2 run turtlebot3_teleop teleop_keyboard 
+  416  ros2 run turtlebot3_gazebo turtlebot3_drive 
+  417  ros2 launch turtlebot3_bringup rviz2.launch.py 
+  418  clear
+  419  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  420  ros2 launch turtlebot3_cartographer cartographer.lau
+  421  ros2 launch turtlebot3_gazebo maja.py
+  422  ros2 run turtlebot3_teleop teleop_keyboard 
+  423  ros2 run nav2_map_server map_saver_cli -f ~/map
+  424  cd ros2_ws
+  425  cd src/
+  426  c.
+  427  code.
+  428  .code
+  429  code.
+  430  gazebo
+  431  cd ..
+  432  colcon build
+  433  source ~/.bashrc
+  434  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+  435  ros2 topic list
+  436  ros2 /scan
+  437  ros2 scan
+  438  ros2 /scan
+  439  ros2 topic list
+  440  ros2 topic echo --once /scan
+  441  ros2 interface show sensor_msgs/msg/LaserScan
+  442  ros2 topic info /scan
+  443  cd
+  444  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  445  ros2 run turtlebot3_teleop teleop_keyboard
+  446  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+  447  cd ros2_ws/src/
+  448  code .
+  449  gazebo
+  450  cd ros2_ws/src/
+  451  gazebo
+  452  cd..
+  453  cd ..
+  454  colcon build
+  455  source install/setup.bash 
+  456  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+  457  clear
+  458  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+  459  colcon build
+  460  source install/setup.bash 
+  461  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py 
+  462  ros2 run my_robot_controller mapping
+  463  clear
+  464  cd ..
+  465  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  466  cd..
+  467  cd ..
+  468  colcon build
+  469  source install/setup.bash
+  470  roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+  471  ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=Tru
+  472  ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+  473  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  474  ls
+  475  cd ros2_ws/
+  476  colcon build
+  477  source install/setup.bash
+  478  clear
+  479  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  480  ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+  481  ros2 run my_robot_controller mapping
+  482  cd ros2_ws/src
+  483  $ git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
+  484  git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3.git
+  485  cd ..
+  486  colcon build --symlink-install 
+  487  .code
+  488  code
+  489  clear
+  490  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  491  export TURTLEBOT3_MODEL=burger
+  492  ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map.yaml
+  493  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  494  clear
+  495  cd ros2_ws/
+  496  colcon build --symlink-install 
+  497  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  498  colcon build --symlink-install 
+  499  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  500  gazebo
+  501  colcon build --symlink-install
+  502  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  503  source install/setup.bash
+  504  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  505  clear
+  506  colcon build --symlink-install
+  507  cd ros2_ws/
+  508  colcon build --symlink-install
+  509  source install/setup.bash
+  510  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  511  clear
+  512  colcon build --symlink-install
+  513  source install/setup.bash
+  514  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  515  colcon build --symlink-install
+  516  source install/setup.bash
+  517  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  518  gazebo
+  519  ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+  520  clear
+  521  ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+  522  ros2 run my_robot_controller mapping
+  523  clear
+  524  ros2 run my_robot_controller mapping
+  525  ls
+  526  cd ros2_ws/
+  527  git staus
+  528  clear
+  529  git push -u origin main
+  530  git status
+  531  git add src/
+  532  git status
+  533  git add .
+  534  git status
+  535  git add .
+  536  git status
+  537  git add src/turtlebot3_simulations/
+  538  git status
+  539  git commit -m
+  540  git commit -m "task1_changes"
+  541  git push -u origin main
+  542  gazebo
+  543  ls
+  544  cd ros2_ws/
+  545  colcon build --symlink-install
+  546  source install/setup-bash
+  547  source install setup-bash
+  548  [200~source install/setup.bash~
+  549  source install/setup.bash
+  550  $ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  551  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  552  colcon build –symlink-install
+  553  colcon build --symlink-install
+  554  cd ros2_ws/
+  555  colcon build --symlink-install
+  556  clear
+  557  source install/setup.bash
+  558  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  559  /bin/python3 /home/autolab/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo/launch/spawn_turtlebot3.launch.py
+  560  colcon build --symlink-install
+  561  ls
+  562  cd ros2_ws/
+  563  colcon build --symlink-install
+  564  source install/setup.bash
+  565  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  566  gazebo
+  567  source install/setup.bash
+  568  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  569  gazebo
+  570  git status
+  571  git add .
+  572  git status
+  573  git add -a
+  574  git status
+  575  git commit .
+  576  git status
+  577  git add .
+  578  git status
+  579  git add src/turtlebot3_simulations/
+  580  git status
+  581  git commit .
+  582  git push origin -u
+  583  git add .
+  584  git status
+  585  cd
+  586  cd ros2_ws/
+  587  git push -u origin main
+  588  ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+  589  ros2 run my_robot_controller mapping
+  590  code
+  591  roslaunch turtlebot3_gazebo turtlebot3_world.launch
+  592  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  593  ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map.yaml
+  594  ros2 run turtlebot3_teleop teleop_keyboard
+  595  cd ros2_ws/
+  596  colcon build
+  597  source ~/bash.rc
+  598  source .bashrc
+  599  source setup .bash
+  600  source setup .bashrc
+  601  source setup 
+  602  /source setup .bash
+  603  colcon build
+  604  source .bashrc
+  605  source source ~/.bashrc
+  606  source ~/.bashrc
+  607  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  608  source ~/.bashrc
+  609  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  610  colcon build
+  611  source ~/.bashrc
+  612  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  613  colcon build
+  614  source ~/.bashrc
+  615  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  616  colcon build
+  617  source ~/.bashrc
+  618  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  619  colcon build
+  620  source ~/.bashrc
+  621  colcon build
+  622  source ~/.bashrc
+  623  ros2 launch my_robot_controller run_navigation.launch.py 
+  624  ros2 run nav2_map_server map_saver_cli -f ~/map
+  625  ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map.yaml
+  626  ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+  627  ros2 run my_robot_controller navigation 
+  628  sudo pip3 install transforms3d
+  629  ros2 run my_robot_controller navigation 
+  630  ros2 run my_robot_controller mapping
+  631  colcon build
+  632  cd ros2_ws/
+  633  colcon build
+  634  source ~/.bashrc
+  635  ros2 launch my_robot_controller run_navigation.launch.py 
+  636  colcon build
+  637  cd ros2_ws/
+  638  colcon build
+  639  source ~/.bashrc
+  640  ros2 launch my_robot_controller run_navigation.launch.py 
+  641  colcon build
+  642  source ~/.bashrc
+  643  ros2 launch my_robot_controller run_navigation.launch.py 
+  644  code
+  645  source ~/autoware/install/setup.bash
+  646  cd ros2_ws/
+  647  source ~/autoware/install/setup.bash
+  648  cd ..
+  649  ls
+  650  cd autoware
+  651  ls
+  652  source ~/autoware/install/setup.bash
+  653  gedit ~/.bash.rd
+  654  gedit ~/.bash.rc
+  655  gedit ~/bash.rc
+  656  gedit ~/.bashrc
+  657  source install/setup.bash
+  658  source ~/autoware/install/setup.bash
+  659  ros2 launch autoware_launch planning_simulator.launch.xml map_path:=$HOME/iseauto/Maps/nishishinjuku_autoware_map vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit
+  660  ros2 launch autoware_launch planning_simulator.launch.xml map_path:=$HOME/autoware_map/sample-map-planning vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit
+  661  gedit ~/.bashrc
+  662  code
+  663  source ~/autoware/install/setup.bash
+  664  ros2 launch my_robot_controller run_navigation.launch.py 
+  665  clear
+  666  ros2 launch my_robot_controller run_navigation.launch.py 
+  667  source ~/autoware/install/setup.bash
+  668  cd autoware
+  669  source install/setup.bash
+  670  ros2 launch autoware_launch planning_simulator.launch.xml map_path:=$HOME/autoware_map/sample-map-planning vehicle_model:=sample_vehicle sensor_model:=sample_sensor_kit
+  671  cd ros2_ws/
+  672  colcon build
+  673  ros2 launch my_robot_controller run_navigation.launch.py 
+  674  source install/setup.bash
+  675  colcon build
+  676  ros2 launch my_robot_controller run_navigation.launch.py 
+  677  source install/setup.bash
+  678  colcon build
+  679  ros2 run nav2_map_server map_saver_cli -f ~/map
+  680  source install/setup.bash
+  681  colcon build
+  682  source install/setup.bash
+  683  ros2 run nav2_map_server map_saver_cli -f ~/map
+  684  cd ..
+  685  ros2 run nav2_map_server map_saver_cli -f ~/map
+  686  history > history_for_print.txt
+  687  cd ros2_ws/
+  688  ros2 launch my_robot_controller run_navigation.launch.py 
+  689  colcon build
+  690  source ~/.bashrc
+  691  ros2 run nav2_map_server map_saver_cli -f ~/map
+  692  ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map.yaml
+  693  ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+  694  ros2 run my_robot_controller navigation 
+  695  ros2 run my_robot_controller navigation
+  696  sudo pip3 install transforms3d
+  697  ros2 run my_robot_controller navigation 
+  698  ros2 launch my_robot_controller run_navigation.launch.py 
+  699  ros2 run my_robot_controller navigation
+  700  source ~/.bashrc
+  701  ros2 run my_robot_controller navigation
+  702  gedit ~/.bashrc
+  703  colcon build
+  704  cd ros2_ws/
+  705  colcon build
+  706  source ~/.bashrc
+  707  ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map.yaml
+  708  ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+  709  ros2 launch my_robot_controller run_navigation.launch.py 
+  710  ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+  711  ros2 launch my_robot_controller run_navigation.launch.py 
+  712  cd ros2_ws/
+  713  source ~/.bashrc
+  714  ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+  715  ros2 run nav2_map_server map_saver_cli -f ~/map
+  716  ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map.yaml
+  717  cd ros2_ws/
+  718  colcon build --symlink-install
+  719  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  720  code
+  721  ros2 launch my_robot_controller run_navigation.launch.py 
+  722  ros2 run nav2_map_server map_saver_cli -f ~/map
+  723  launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map.yaml
+  724  ros2 launch turtlebot3_cartographer cartographer.launch
+  725  ros2 launch turtlebot3_cartographer cartographer.lau
+  726  ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=True
+  727  ros2 run turtlebot3_teleop teleop_keyboard
+  728  ros2 run nav2_map_server map_saver_cli -f ~/map
+  729  cd ..
+  730  ros2 run nav2_map_server map_saver_cli -f ~/map
+  731  ros2 launch my_robot_controller run_navigation.launch.py 
+  732  cd ros2_ws/
+  733  colcon build --symlink-install
+  734  source install/setup.bash 
+  735  ros2 launch my_robot_controller run_navigation.launch.py 
+  736  colcon build --symlink-install
+  737  source install/setup.bash 
+  738  ros2 launch my_robot_controller run_navigation.launch.py 
+  739  colcon build --symlink-install
+  740  source install/setup.bash 
+  741  ros2 launch my_robot_controller run_navigation.launch.py 
+  742  ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+  743  ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:=$HOME/map.yaml
+  744  ros2 run my_robot_controller navigation
+  745  history > histxt
