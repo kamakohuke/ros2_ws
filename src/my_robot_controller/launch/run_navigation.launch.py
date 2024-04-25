@@ -39,17 +39,13 @@ def generate_launch_description():
 
 
 
-
+    return ld
 
     goal_pose_publisher = Node(
             package='my_robot_controller',
             executable='navigation',
             name='navigation'
         )
-
-
-
-
 
 
 
@@ -61,8 +57,6 @@ def generate_launch_description():
     ld.add_action(navigation_node)
     ld.add_action(gazebo_world)
     ld.add_action(goal_pose_publisher)
-
-
 
 
 
